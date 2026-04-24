@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videowaves Pro Timer — Professional Broadcast Countdown Software</title>
+    <meta name="description" content="Professional 16:9 broadcast countdown timer for live events. Used by AV professionals across India. Early Bird offer at ₹1111 — only 5 seats!">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;900&family=Roboto+Mono:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="navbar">
+    <div class="nav-inner">
+        <div class="nav-brand">
+            <span class="brand-v">VIDEOWAVES</span>
+            <span class="brand-t">TIMER</span>
+        </div>
+        <a href="#buy" class="nav-cta" id="nav-price-btn">🔥 Early Bird — ₹1,111</a>
+    </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-glow"></div>
+    <div class="container hero-content">
+        <div class="hero-badge">⚡ Professional Broadcast Tool</div>
+        <h1 class="hero-title">
+            The Timer Built for<br>
+            <span class="gradient-text">Live Events</span>
+        </h1>
+        <p class="hero-sub">
+            Full-screen 16:9 countdown timer designed for AV professionals, event managers &amp; broadcast studios. Control from any device on your network.
+        </p>
+        <div class="hero-actions">
+            <a href="#buy" class="btn-primary" id="hero-buy-btn">
+                <span>🔥 Early Bird Offer</span>
+                <strong id="hero-price">₹1,111</strong>
+            </a>
+            <a href="#features" class="btn-ghost">See Features ↓</a>
+        </div>
+        <div class="hero-trust">
+            <span>✓ One-time payment</span>
+            <span>✓ Instant download</span>
+            <span>✓ Windows 10/11</span>
+            <span>✓ No subscription</span>
+        </div>
+    </div>
+    <!-- Mock Timer Display -->
+    <div class="container">
+        <div class="timer-mockup">
+            <div class="mockup-bar">
+                <span class="mockup-dot red"></span>
+                <span class="mockup-dot yellow"></span>
+                <span class="mockup-dot green"></span>
+                <span class="mockup-title">Videowaves Timer — Professional Broadcast Control</span>
+            </div>
+            <div class="mockup-screen">
+                <div class="mockup-badge">● LIVE</div>
+                <div class="mockup-time" id="live-clock">05:00</div>
+                <div class="mockup-label">COUNTDOWN</div>
+                <div class="mockup-controls">
+                    <button class="mock-btn green">▶ START</button>
+                    <button class="mock-btn grey">⏸ STOP</button>
+                    <button class="mock-btn red">↺ RESET</button>
+                    <button class="mock-btn purple">📺 BROADCAST</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FEATURES -->
+<section class="features" id="features">
+    <div class="container">
+        <div class="section-label">WHY CHOOSE US</div>
+        <h2 class="section-title">Everything a Pro Needs</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">🖥️</div>
+                <h3>Full 16:9 Output</h3>
+                <p>Dedicated broadcast window designed for LED walls, projectors &amp; confidence monitors. Crystal-clear at any resolution.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📡</div>
+                <h3>Network Control</h3>
+                <p>Control the timer from any laptop or phone on the same WiFi network. No cables, no hassle.</p>
+                <button onclick="document.getElementById('mobile-guide-modal').classList.remove('hidden')" style="background: none; border: 1px solid #00d4ff; color: #00d4ff; padding: 6px 12px; border-radius: 6px; cursor: pointer; margin-top: 10px; font-size: 0.8rem; font-family: 'Outfit', sans-serif;">How does it work? ❓</button>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">⏱️</div>
+                <h3>Quick Presets</h3>
+                <p>One-click presets for 5, 10, 15, 20, 30, 45, 60 minutes. Set up in seconds before your event.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🎨</div>
+                <h3>Holding Mode</h3>
+                <p>Display your event branding &amp; logo while on standby. Upload a custom image for a professional look.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">📣</div>
+                <h3>Push Messages</h3>
+                <p>Send live ticker messages to the broadcast screen instantly. Perfect for event announcements.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🔔</div>
+                <h3>Audio Alarm</h3>
+                <p>Upload a custom alarm sound that fires when time is up. Keep your event running on schedule.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🎛️</div>
+                <h3>Companion Ready</h3>
+                <p>Integrates with Bitfocus Companion for StreamDeck control. Industry-standard workflow support.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">⚡</div>
+                <h3>Instant Launch</h3>
+                <p>Lightweight Electron app. Installs in 30 seconds, launches in 2. No bloat, no waiting.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="how" id="how">
+    <div class="container">
+        <div class="section-label">SIMPLE SETUP</div>
+        <h2 class="section-title">Ready in 3 Steps</h2>
+        <div class="steps">
+            <div class="step">
+                <div class="step-num">01</div>
+                <h3>Purchase &amp; Download</h3>
+                <p>Pay via UPI, Card or Net Banking. Get your download link instantly on screen.</p>
+            </div>
+            <div class="step-arrow">→</div>
+            <div class="step">
+                <div class="step-num">02</div>
+                <h3>Install on Windows</h3>
+                <p>Run the .exe installer. Desktop shortcut is created automatically. No technical knowledge needed.</p>
+            </div>
+            <div class="step-arrow">→</div>
+            <div class="step">
+                <div class="step-num">03</div>
+                <h3>Use at Your Event</h3>
+                <p>Open the timer, set your time, click Broadcast — your countdown appears full-screen on the output display.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PRICING -->
+<section class="pricing" id="buy">
+    <div class="container">
+        <div class="section-label">ONE-TIME PURCHASE</div>
+        <h2 class="section-title">Simple, Honest Pricing</h2>
+
+        <!-- Early Bird Counter Banner -->
+        <div class="early-bird-banner" id="early-bird-banner">
+            <div class="eb-fire">🔥</div>
+            <div class="eb-text">
+                <strong>Early Bird Offer!</strong>
+                <span>First 5 buyers get it at <strong>₹1,111</strong> instead of ₹2,222</span>
+            </div>
+            <div class="eb-counter">
+                <div class="eb-slots" id="eb-slots-display">⚡ <span id="slots-left">5</span> slots left</div>
+                <div class="eb-seats">
+                    <span class="seat taken" id="s1">●</span>
+                    <span class="seat taken" id="s2">●</span>
+                    <span class="seat taken" id="s3">●</span>
+                    <span class="seat taken" id="s4">●</span>
+                    <span class="seat taken" id="s5">●</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="price-card">
+            <div class="price-tag-area">
+                <div class="price-old" id="price-strikethrough">Regular Price: ₹2,222</div>
+                <div class="price-main" id="price-display">₹1,111</div>
+                <div class="price-label-tag" id="price-label-tag">🎉 Early Bird Price — Only 5 Seats!</div>
+                <div class="price-note">One-time · No subscription · Lifetime use</div>
+            </div>
+            <ul class="price-features">
+                <li>✓ Full-screen 16:9 Broadcast Output</li>
+                <li>✓ Network remote control</li>
+                <li>✓ Holding Mode with custom branding</li>
+                <li>✓ Push messages to screen</li>
+                <li>✓ Quick presets + custom time</li>
+                <li>✓ Custom audio alarm</li>
+                <li>✓ Bitfocus Companion integration</li>
+                <li>✓ Windows 10 &amp; 11 compatible</li>
+                <li>✓ Free future updates</li>
+            </ul>
+            <button class="buy-btn" id="razorpay-btn" onclick="openPayment()">
+                <span id="buy-btn-text">💳 Buy Now for ₹1,111</span>
+                <small>UPI · Card · Net Banking · Wallets</small>
+            </button>
+            <div class="secure-note">🔒 Secured by Razorpay</div>
+        </div>
+    </div>
+</section>
+
+<!-- MOBILE SIDEBAR GUIDE -->
+<div class="mobile-sidebar" id="mobile-sidebar">
+    <div class="sidebar-header">
+        <span>📱 Mobile Connect</span>
+        <button onclick="document.getElementById('mobile-sidebar').classList.toggle('minimized')">_</button>
+    </div>
+    <div class="sidebar-content">
+        <p>Control the timer from your phone:</p>
+        <ol>
+            <li>Connect to same WiFi.</li>
+            <li>Scan QR Code in App.</li>
+            <li>Instant Remote Control!</li>
+        </ol>
+        <button class="btn-sidebar" onclick="document.getElementById('mobile-guide-modal').classList.remove('hidden')">Full Guide</button>
+    </div>
+</div>
+
+<style>
+.mobile-sidebar {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 240px;
+    background: rgba(10, 15, 30, 0.95);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(0, 212, 255, 0.3);
+    border-radius: 12px;
+    padding: 0;
+    z-index: 1000;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    transition: transform 0.3s ease;
+}
+.mobile-sidebar.minimized {
+    transform: translateY(calc(100% - 45px));
+}
+.sidebar-header {
+    background: rgba(0, 212, 255, 0.1);
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 212, 255, 0.2);
+    border-radius: 12px 12px 0 0;
+    color: #00d4ff;
+    font-weight: 700;
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.9rem;
+}
+.sidebar-header button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+.sidebar-content {
+    padding: 15px;
+    color: #e8edf5;
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.85rem;
+}
+.sidebar-content p {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.sidebar-content ol {
+    margin-left: 15px;
+    line-height: 1.6;
+}
+.btn-sidebar {
+    margin-top: 15px;
+    width: 100%;
+    background: #00d4ff;
+    border: none;
+    padding: 8px;
+    border-radius: 6px;
+    color: #050812;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: 'Outfit', sans-serif;
+}
+</style>
+
+<!-- DOWNLOAD SUCCESS MODAL -->
+<div class="modal-overlay hidden" id="success-modal">
+    <div class="modal">
+        <div class="modal-icon">🎉</div>
+        <h2>Payment Successful!</h2>
+        <p>Thank you for purchasing <strong>Videowaves Pro Timer</strong>. Your download is ready!</p>
+        <a class="btn-primary" id="download-link" href="#" download>
+            ⬇️ Download Videowaves Timer Setup
+        </a>
+        <p class="modal-note">Save this page or check your email for the download link.</p>
+        <button class="modal-close" onclick="closeModal()">Close</button>
+    </div>
+</div>
+
+<!-- MOBILE GUIDE MODAL -->
+<div class="modal-overlay hidden" id="mobile-guide-modal" style="z-index: 2000;">
+    <div class="modal" style="text-align: left;">
+        <div class="modal-icon" style="text-align:center;">📱</div>
+        <h2 style="text-align: center; color: #00d4ff;">Using Mobile Control</h2>
+        <p style="margin-bottom: 15px; color: #e8edf5;">The timer generates a local web-panel automatically. To control it from your phone:</p>
+        <ol style="line-height: 1.8; margin-left: 20px; color: #e8edf5; font-size: 0.95rem;">
+            <li>Connect both your <strong>Phone and Laptop</strong> to the <strong>SAME WiFi router</strong> (or mobile hotspot).</li>
+            <li>In the timer app, look for the <strong>QR Code</strong> at the top right.</li>
+            <li>Open your phone's camera and <strong>scan the QR code</strong>.</li>
+            <li>A control panel will instantly open in your phone's browser!</li>
+        </ol>
+        <div class="troubleshoot-card">
+            <div class="ts-header">
+                <span class="ts-icon">🛠️</span>
+                <h4>Troubleshooting (समस्या निवारण)</h4>
+            </div>
+            <p class="ts-intro">मोबाईल कनेक्ट होत नसल्यास खालील गोष्टी तपासा:</p>
+            <div class="ts-grid">
+                <div class="ts-item">
+                    <span class="ts-bullet">📡</span>
+                    <div><strong>Same WiFi:</strong> मोबाईल आणि लॅपटॉप एकाच WiFi वर ठेवा.</div>
+                </div>
+                <div class="ts-item">
+                    <span class="ts-bullet">🛡️</span>
+                    <div><strong>Firewall:</strong> Windows Firewall मध्ये ॲपला 'Allow' करा.</div>
+                </div>
+                <div class="ts-item">
+                    <span class="ts-bullet">🌐</span>
+                    <div><strong>Private:</strong> WiFi प्रोफाइल 'Private' वर सेट करा.</div>
+                </div>
+                <div class="ts-item">
+                    <span class="ts-bullet">🔗</span>
+                    <div><strong>Manual IP:</strong> ब्राउझरमध्ये टाईप करा: <code>http://192.168.x.x:3030</code></div>
+                </div>
+            </div>
+        </div>
+
+        <style>
+        .troubleshoot-card {
+            margin-top: 25px;
+            background: rgba(255, 59, 48, 0.05);
+            border: 1px solid rgba(255, 59, 48, 0.2);
+            border-radius: 12px;
+            padding: 20px;
+        }
+        .ts-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 12px;
+        }
+        .ts-icon { font-size: 1.4rem; }
+        .ts-header h4 {
+            margin: 0;
+            color: #ff453a;
+            font-size: 1.1rem;
+            font-weight: 700;
+        }
+        .ts-intro {
+            font-size: 0.9rem;
+            color: rgba(255,255,255,0.7);
+            margin-bottom: 15px;
+        }
+        .ts-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+        .ts-item {
+            display: flex;
+            gap: 10px;
+            font-size: 0.85rem;
+            line-height: 1.4;
+            color: #e8edf5;
+        }
+        .ts-bullet { font-size: 1rem; }
+        .ts-item code {
+            background: rgba(0,0,0,0.3);
+            color: #00d4ff;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+        @media (max-width: 600px) {
+            .ts-grid { grid-template-columns: 1fr; }
+        }
+        </style>
+        <button class="modal-close" style="margin-top: 20px; width: 100%;" onclick="document.getElementById('mobile-guide-modal').classList.add('hidden')">समजले (Got it!)</button>
+    </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-brand">
+            <span class="brand-v">VIDEOWAVES</span>
+            <span class="brand-t">TIMER</span>
+        </div>
+        <p>Professional Broadcast Tools · Made in India 🇮🇳</p>
+    </div>
+</footer>
+
+<!-- FIREBASE SDK -->
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-app.js";
+  import { getFirestore, collection, doc, setDoc } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore.js";
+
+  // Replace with your Firebase config
+  const firebaseConfig = {
+    apiKey: "YOUR_FIREBASE_API_KEY",
+    authDomain: "YOUR_PROJECT.firebaseapp.com",
+    projectId: "YOUR_PROJECT",
+    storageBucket: "YOUR_PROJECT.appspot.com",
+    messagingSenderId: "123456789",
+    appId: "YOUR_APP_ID"
+  };
+
+  const app = initializeApp(firebaseConfig);
+  window.db = getFirestore(app);
+  window.setDoc = setDoc;
+  window.doc = doc;
+  window.collection = collection;
+</script>
+
+<!-- EMAILJS SDK -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "YOUR_EMAILJS_PUBLIC_KEY",
+      });
+   })();
+</script>
+
+<script src="payment.js"></script>
+</body>
+</html>
