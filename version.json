@@ -1,0 +1,5 @@
+{
+    "version": "1.0.2",
+    "download_url": "https://softvww.github.io/videowaves-timer-store/",
+    "changelog": "Fixed network detection bug and improved license locking stability."
+}
