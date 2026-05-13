@@ -3,7 +3,7 @@
 //  Price: ₹2222
 // ──────────────────────────────────────────────
 
-const RAZORPAY_KEY  = 'YOUR_KEY_ID';       // 👈 Replace with your Razorpay Key ID
+const RAZORPAY_KEY  = 'rzp_test_SolQGtm0r1f3hO';       // 👈 Razorpay Test Key ID Added
 const DOWNLOAD_URL  = 'YOUR_DOWNLOAD_URL'; // 👈 Replace with your download link
 const REGULAR_PRICE = 222200;              // ₹2222 in paise
 const EMAILJS_SERVICE_ID = 'YOUR_EMAILJS_SERVICE_ID';
