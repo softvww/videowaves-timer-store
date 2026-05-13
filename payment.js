@@ -74,7 +74,7 @@ function openPayment() {
         amount: 333300,
         currency: 'INR',
         name: 'Videowaves',
-        description: `Pro Broadcast Timer — ₹2,222 Lifetime License`,
+        description: `Pro Broadcast Timer — ₹3,333 Lifetime License`,
         image: 'https://raw.githubusercontent.com/softvww/pro-broadcast-timer/main/icon.png',
         theme: { color: '#00b4d8' },
         prefill: { email: userEmail },
