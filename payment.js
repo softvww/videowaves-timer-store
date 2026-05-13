@@ -21,9 +21,9 @@ function updatePriceUI() {
     const btnTextEl   = document.getElementById('buy-btn-text');
     const strikeEl    = document.getElementById('price-strikethrough');
 
-    if (priceEl)     priceEl.textContent     = '₹2,222';
-    if (labelEl)     { labelEl.textContent   = 'Regular Price'; labelEl.classList.add('regular'); }
-    if (btnTextEl)   btnTextEl.textContent   = '💳 Buy Now for ₹2,222';
+    if (priceEl)     priceEl.textContent     = '₹3,333';
+    if (labelEl)     { labelEl.textContent   = 'Special Offer'; labelEl.classList.add('regular'); }
+    if (btnTextEl)   btnTextEl.textContent   = '💳 Buy Now for ₹3,333';
     if (strikeEl)    strikeEl.style.display  = 'none';
 }
 
@@ -71,7 +71,7 @@ function openPayment() {
 
     const options = {
         key: RAZORPAY_KEY,
-        amount: REGULAR_PRICE,
+        amount: 333300,
         currency: 'INR',
         name: 'Videowaves',
         description: `Pro Broadcast Timer — ₹2,222 Lifetime License`,
@@ -126,7 +126,7 @@ async function processSale(userEmail, paymentId) {
             // Replace 'YOUR_NOTIFICATION_TEMPLATE_ID' with a simple template
             await emailjs.send(EMAILJS_SERVICE_ID, 'YOUR_NOTIFICATION_TEMPLATE_ID', {
                 to_email: 'YOUR_OWN_EMAIL@GMAIL.COM', 
-                message: `New Sale Alert! 🚀\n\nCustomer: ${userEmail}\nKey: ${licenseKey}\nPayment ID: ${paymentId}\nAmount: ₹2,222`
+                message: `New Sale Alert! 🚀\n\nCustomer: ${userEmail}\nKey: ${licenseKey}\nPayment ID: ${paymentId}\nAmount: ₹3,333`
             });
             console.log("Merchant notification sent!");
         } else {
