@@ -244,11 +244,92 @@
     </div>
 </section>
 
-<!-- WHATSAPP FLOATING BUTTON -->
-<a href="https://wa.me/919930578210" class="whatsapp-float" target="_blank">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Support">
-    <span>Need Help?</span>
-</a>
+<!-- CUSTOMER REVIEWS -->
+<section class="reviews" id="reviews">
+    <div class="container">
+        <div class="section-label">VOICE OF CLIENTS</div>
+        <h2 class="section-title">What Pros Are Saying</h2>
+        <div class="reviews-grid">
+            <div class="review-card">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p>"The best 16:9 timer for LED walls. Simple and works every time."</p>
+                <span class="reviewer">- Rajesh, AV Engineer</span>
+            </div>
+            <div class="review-card">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p>"Mobile control is a lifesaver. No more running to the console."</p>
+                <span class="reviewer">- Amit, Event Manager</span>
+            </div>
+            <div class="review-card">
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <p>"Very reliable software. Using it for all my corporate shows now."</p>
+                <span class="reviewer">- Sameer, Broadcast Studio</span>
+            </div>
+        </div>
+        
+        <!-- FEEDBACK FORM -->
+        <div class="feedback-box">
+            <h3>Share Your Experience (फीडबॅक द्या)</h3>
+            <p>तुम्हाला सॉफ्टवेअर कसं वाटलं? आम्हाला नक्की कळवा.</p>
+            <form id="feedback-form">
+                <div class="form-row">
+                    <input type="text" placeholder="Your Name" required>
+                    <select id="rating" required>
+                        <option value="5">⭐⭐⭐⭐⭐ (Excellent)</option>
+                        <option value="4">⭐⭐⭐⭐ (Good)</option>
+                        <option value="3">⭐⭐⭐ (Average)</option>
+                        <option value="2">⭐⭐ (Poor)</option>
+                        <option value="1">⭐ (Very Bad)</option>
+                    </select>
+                </div>
+                <textarea placeholder="Your Feedback or Complaint..." rows="4" required></textarea>
+                <button type="submit" class="btn-primary">Submit Review</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+<style>
+.reviews { padding: 80px 0; background: rgba(255,255,255,0.02); }
+.reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-bottom: 50px;
+}
+.review-card {
+    background: rgba(255,255,255,0.03);
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.05);
+}
+.stars { color: #ffcc00; margin-bottom: 15px; font-size: 1.1rem; }
+.review-card p { font-style: italic; color: #e8edf5; margin-bottom: 15px; }
+.reviewer { color: #00d4ff; font-weight: 700; font-size: 0.9rem; }
+
+.feedback-box {
+    max-width: 600px;
+    margin: 60px auto 0;
+    background: rgba(0, 212, 255, 0.05);
+    border: 1px solid rgba(0, 212, 255, 0.1);
+    padding: 40px;
+    border-radius: 20px;
+}
+.feedback-box h3 { color: #00d4ff; margin-bottom: 10px; }
+.feedback-box p { font-size: 0.9rem; color: rgba(255,255,255,0.6); margin-bottom: 25px; }
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; margin-bottom: 15px; }
+input, select, textarea {
+    background: rgba(0,0,0,0.3);
+    border: 1px solid rgba(255,255,255,0.1);
+    padding: 12px;
+    border-radius: 8px;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    outline: none;
+}
+input:focus, select:focus, textarea:focus { border-color: #00d4ff; }
+.feedback-box button { width: 100%; margin-top: 15px; }
+</style>
 
 <style>
 .trust-badges {
